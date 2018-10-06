@@ -1,0 +1,802 @@
+  <html>
+<head>
+  <title>Website 2</title>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">  
+  <link rel="stylesheet" href="index-style.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/slick-theme.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/fontawesome.all.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+
+
+  <button id="btnUp" class="btn btn-default">
+    <i class="fas fa-angle-up py-1"></i>
+  </button>
+
+<section id="loading">
+  <div class="spinner">
+    <div class="rect1"></div>
+    <div class="rect2"></div>
+    <div class="rect3"></div>
+    <div class="rect4"></div>
+    <div class="rect5"></div>
+  </div>
+</section>
+
+<!-- Start of Nav -->
+
+<nav class="fixed-top navbar navbar-expand-lg navbar-light mb-5">
+  <a class="navbar-brand py-0" href="#"><img src="images/logo-light.png"/></a>
+  <button class="navbar-toggler bg-white" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">  
+  <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="container">
+    <div class="collapse navbar-collapse pr-4" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto border-right">
+        <li class="nav-item">
+          <a class="nav-link" href="#HOME">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#ABOUT">About</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="#TEAM">Team</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="#WORKS">Works</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="#PRICING">Pricing</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="#CONTACT">Contact</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav pl-4">
+        <li class="nav-item">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+        </li>
+        <li class="nav-item">
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </li>
+        <li class="nav-item">
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- End of Nav -->
+
+
+<!-- Start of Home Section -->
+
+<section class="home" id="HOME">  
+  <div class="slider text-center">
+    <div class="item1">
+      <div class="caption">
+        <h2 class="wow bounceIn" data-wow-duration="3s" data-wow-delay="1s" data-wow-iteration="infinite">Create With Bezel</h2>
+        <h4>We are an innovative company making digital stuff.</h4>
+        <button class="btn btn-info mt-4">Read More</button>
+        <button class="btn btn-outline-light mt-4">Contact</button>
+      </div>
+    </div>
+    <div class="item2">
+      <div class="caption">
+        <h2  class="wow bounceIn" data-wow-duration="3s" data-wow-delay="1s" data-wow-iteration="infinite">Create With Bezel</h2>
+        <h4>We help ambitious companies create new value.</h4>
+        <button class="btn btn-info mt-4">Hire Us</button>
+        <button class="btn btn-outline-light mt-4">Services</button>
+      </div>
+    </div>  
+  </div>
+  <div class="arrow">
+    <div class="arrow-item next">
+      <i class="fas fa-arrow-right"></i>
+    </div>
+    <div class="arrow-item prev">
+      <i class="fas fa-arrow-left"></i>
+    </div>
+  </div>
+</section>  
+
+
+<!-- End of Home Section --> 
+
+
+<!-- Start of About Section -->
+
+<section class="about text-center" id="ABOUT">
+  <div class="caption">
+    <h5 class="mb-4">WHO WE ARE</h5>
+    <p>We are an innovative company. We develop and design <span class="element text-info"></span> for<br/> 
+       costumers around the world. Our clients are some of the most forward-<br/>looking companies in the world.</p>
+    <button class="btn btn-outline-dark py-2 px-4 mt-4">Read More</button>
+  </div>
+  <div class="content border-top border-bottom">
+    <div class="row">
+    <div class="col-md-6 my-4 pt-5">
+      <ul class="nav nav-tabs mb-5 justify-content-center" id="myTab" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" id="home-tab" data-toggle="tab" href="#mission" role="tab" aria-controls="home" aria-selected="true">MISSION</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="profile-tab" data-toggle="tab" href="#customers" role="tab" aria-controls="profile" aria-selected="false">CUSTOMERS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="contact-tab" data-toggle="tab" href="#ideas" role="tab" aria-controls="contact" aria-selected="false">IDEAS</a>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="mission" role="tabpanel" aria-labelledby="home-tab">
+          <p>Expedita minima fugiat ea maiores itaque natus animi   officia iure <br/> deleniti unde, facilis velit optio! Culpa quis neque tempora deleniti <br/> assumenda aperiam.</p>
+
+          <p>Expedita minima fugiat ea maiores itaque natus animi officia iure <br/> deleniti unde, facilis velit optio! Culpa quis neque tempora deleniti <br/> assumenda aperiam.</p>
+
+          <button class="btn btn-outline-dark py-2 px-4">Read More</button>
+        </div>
+        <div class="tab-pane fade" id="customers" role="tabpanel" aria-labelledby="profile-tab">
+          <p>Expedita minima fugiat ea maiores itaque natus animi   officia iure <br/> deleniti unde, facilis velit optio! Culpa quis neque tempora deleniti <br/> assumenda aperiam.</p>
+
+          <p>Expedita minima fugiat ea maiores itaque natus animi officia iure <br/> deleniti unde, facilis velit optio! Culpa quis neque tempora deleniti <br/> assumenda aperiam.</p>
+
+          <button class="btn btn-outline-dark py-2 px-4">Read More</button>
+        </div>
+        <div class="tab-pane fade" id="ideas" role="tabpanel" aria-labelledby="contact-tab">
+          <p>Expedita minima fugiat ea maiores itaque natus animi   officia iure <br/> deleniti unde, facilis velit optio! Culpa quis neque tempora deleniti <br/> assumenda aperiam.</p>
+
+          <p>Expedita minima fugiat ea maiores itaque natus animi officia iure <br/> deleniti unde, facilis velit optio! Culpa quis neque tempora deleniti <br/> assumenda aperiam.</p>
+
+          <button class="btn btn-outline-dark py-2 px-4">Read More</button>
+        </div>
+      </div>        
+    </div>
+    <div class="col-md-6">
+      <img src="images/bg-image-30.jpg" class="img-fluid">
+    </div>
+    </div>
+  </div>
+</section>
+
+<!-- End of About Section -->
+
+
+<!-- Start of Team Section -->
+
+<section class="team" id="TEAM">
+  <div class="caption text-center">
+    <h2 class="mb-3">Creative Team</h2>
+    <p class="mb-5">We are digital thinkers</p>
+  </div>
+  <div class="text-left">
+    <div class="row">
+      <div class="col-md-6 col-lg-3">
+        <div class="item wow bounceInUp" data-wow-duration="0.5s" data-wow-delay="0.5s">
+          <div class="member-img">
+            <img src="images/team-1.jpg" class="img-fluid">
+          </div>
+          <div class="caption">
+            <div class="icon">
+              <i class="fab fa-facebook-f px-1"></i>
+              <i class="fab fa-twitter px-1"></i>
+              <i class="fab fa-linkedin-in"></i>
+            </div>
+            <div class="info">
+              <p>LUKE CAGE</p>
+              <span>Founder & CEO</span>
+            </div>
+          </div>      
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="item wow bounceInUp" data-wow-duration="1s"data-wow-delay="1s">
+          <div class="memberimg">
+            <img src="images/team-2.jpg" class="img-fluid">
+          </div>
+          <div class="caption">
+            <div class="icon">
+              <i class="fab fa-facebook-f px-1"></i>
+              <i class="fab fa-twitter px-1"></i>
+              <i class="fab fa-linkedin-in"></i>
+            </div>
+            <div class="info">
+              <p>JESSICA JONES</p>
+              <span>Product Designer</span>
+            </div>
+          </div>          
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="item wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="1.5s">
+          <div class="member-img">
+            <img src="images/team-3.jpg" class="img-fluid">
+          </div>
+          <div class="caption">
+            <div class="icon">
+              <i class="fab fa-facebook-f px-1"></i>
+              <i class="fab fa-twitter px-1"></i>
+              <i class="fab fa-linkedin-in"></i>
+            </div>
+            <div class="info">
+              <p>MATT MURDOCK</p>
+              <span>Lead Developer</span>
+            </div>
+          </div>         
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="item wow bounceInUp" data-wow-duration="2s" data-wow-delay="2s">
+          <div class="member-img">
+            <img src="images/team-4.jpg" class="img-fluid">
+          </div>
+          <div class="caption">
+            <div class="icon">
+              <i class="fab fa-facebook-f px-1"></i>
+              <i class="fab fa-twitter px-1"></i>
+              <i class="fab fa-linkedin-in"></i>
+            </div>
+            <div class="info">
+              <p>CLAIRE TEMPLE</p>
+              <span>Sales Manager</span>
+            </div>
+          </div>          
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- End of Team Section -->
+
+
+<!-- Start of Works Section -->
+
+<section class="works text-center" id="WORKS">
+  
+  <h2 class="mb-4 pb-4">Our Works</h2>
+
+  <nav>
+  <div class="nav nav-tabs nav-mine justify-content-center" id="nav-tab" role="tablist">
+    <a class="nav-item nav-link active link-circle" id="nav-home-tab" data-toggle="tab" href="#nav-all" role="tab" aria-controls="nav-home" aria-selected="true">All</a>
+    <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-branding" role="tab" aria-controls="nav-profile" aria-selected="false">Branding</a>
+    <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-product" role="tab" aria-controls="nav-contact" aria-selected="false">Product Design</a>
+    <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-packaging" role="tab" aria-controls="nav-contact" aria-selected="false">Packaging</a>  
+    <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-ui" role="tab" aria-controls="nav-contact" aria-selected="false">UI/UX</a>      
+  </div>
+</nav>
+
+<div class="tab-content mt-5" id="nav-tabContent">
+  <div class="tab-pane fade show active" id="nav-all" role="tabpanel" aria-labelledby="nav-home-tab">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="item wow bounceInUp" data-wow-duration="0.5s"data-wow-delay="0.5s">
+            <div class="work-img">
+              <img class="img-fluid" src="images/portfolio-1.jpg"/>
+            </div>
+            <div class="caption">
+              <h4>Mux Cards</h4>
+              <p>Branding, UI/UX</p>
+            </div> 
+          </div>    
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="item wow bounceInUp" data-wow-duration="0.5s"data-wow-delay="0.5s">
+            <div class="work-img">
+              <img class="img-fluid" src="images/portfolio-2.jpg"/>
+            </div>
+            <div class="caption">
+              <h4>Perkse</h4>
+              <p>Product Design, Packaging</p>
+            </div> 
+          </div>    
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="item wow bounceInUp" data-wow-duration="0.5s"data-wow-delay="0.5s">
+            <div class="work-img">
+              <img class="img-fluid" src="images/portfolio-3.jpg"/>
+            </div>
+            <div class="caption">
+              <h4>Petit Natural</h4>
+              <p>Branding, Packaging</p>
+            </div> 
+          </div>    
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="item wow bounceInUp" data-wow-duration="0.8s"data-wow-delay="0.8s">
+            <div class="work-img">
+              <img class="img-fluid" src="images/portfolio-4.jpg"/>
+            </div>
+            <div class="caption">
+              <h4>Float Bubbles</h4>
+              <p>UI/UX, Product Design</p>
+            </div> 
+          </div>    
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="item wow bounceInUp" data-wow-duration="0.8s"data-wow-delay="0.8s">
+            <div class="work-img">
+              <img class="img-fluid" src="images/portfolio-5.jpg"/>
+            </div>
+            <div class="caption">
+              <h4>Apple Watch Mockup</h4>
+              <p>Branding, Packaging</p>
+            </div> 
+          </div>    
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="item wow bounceInUp" data-wow-duration="0.8s"data-wow-delay="0.8s">
+            <div class="work-img">
+              <img class="img-fluid" src="images/portfolio-6.jpg"/>
+            </div>
+            <div class="caption">
+              <h4>Kraftig Navy</h4>
+              <p>Product Design, Packaging</p>
+            </div> 
+          </div>    
+        </div>           
+      </div>
+    </div>  
+  </div>
+
+  <div class="tab-pane fade" id="nav-branding" role="tabpanel" aria-labelledby="nav-profile-tab">
+    <div class="container-fluid">
+      <div class="row">
+           <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="item">
+            <div class="work-img">
+              <img class="img-fluid" src="images/portfolio-1.jpg"/>
+            </div>
+            <div class="caption">
+              <h4>Mux Cards</h4>
+              <p>Branding, UI/UX</p>
+            </div> 
+          </div>    
+        </div>
+         <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="item">
+            <div class="work-img">
+              <img class="img-fluid" src="images/portfolio-3.jpg"/>
+            </div>
+            <div class="caption">
+              <h4>Petit Natural</h4>
+              <p>Branding, Packaging</p>
+            </div> 
+          </div>    
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="item">
+            <div class="work-img">
+              <img class="img-fluid" src="images/portfolio-5.jpg"/>
+            </div>
+            <div class="caption">
+              <h4>Apple Watch Mockup</h4>
+              <p>Branding, Packaging</p>
+            </div> 
+          </div>    
+        </div>    
+      </div>
+    </div>
+  </div>
+  <div class="tab-pane fade" id="nav-product" role="tabpanel" aria-labelledby="nav-contact-tab">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="item">
+            <div class="work-img">
+              <img class="img-fluid" src="images/portfolio-2.jpg"/>
+            </div>
+            <div class="caption">
+              <h4>Perkse Coffee</h4>
+              <p>Product Design, Packaging</p>
+            </div> 
+          </div>    
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="item">
+            <div class="work-img">
+              <img class="img-fluid" src="images/portfolio-4.jpg"/>
+            </div>
+            <div class="caption">
+              <h4>Float Bubbles</h4>
+              <p>UI/UX, Product Design</p>
+            </div> 
+          </div>    
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="item">
+            <div class="work-img">
+              <img class="img-fluid" src="images/portfolio-6.jpg"/>
+            </div>
+            <div class="caption">
+              <h4>Kraftig Navy</h4>
+              <p>Product Design, Packaging</p>
+            </div> 
+          </div>    
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="tab-pane fade" id="nav-packaging" role="tabpanel" aria-labelledby="nav-contact-tab">
+  <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="item">
+            <div class="work-img">
+              <img class="img-fluid" src="images/portfolio-2.jpg"/>
+            </div>
+            <div class="caption">
+              <h4>Perkse Coffee</h4>
+              <p>Product Design, Packaging</p>
+            </div> 
+          </div>    
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="item">
+            <div class="work-img">
+              <img class="img-fluid" src="images/portfolio-3.jpg"/>
+            </div>
+            <div class="caption">
+              <h4>Petit Natural</h4>
+              <p>Branding, Packaging</p>
+            </div> 
+          </div>    
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="item">
+            <div class="work-img">
+              <img class="img-fluid" src="images/portfolio-5.jpg"/>
+            </div>
+            <div class="caption">
+              <h4>Apple Watch Mockup</h4>
+              <p>Branding, Packaging</p>
+            </div> 
+          </div>    
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="item">
+            <div class="work-img">
+              <img class="img-fluid" src="images/portfolio-6.jpg"/>
+            </div>
+            <div class="caption">
+              <h4>Kraftig Navy</h4>
+              <p>Product Design, Packaging</p>
+            </div> 
+          </div>    
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="tab-pane fade" id="nav-ui" role="tabpanel" aria-labelledby="nav-contact-tab">
+  <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="item">
+            <div class="work-img">
+              <img class="img-fluid" src="images/portfolio-1.jpg"/>
+            </div>
+            <div class="caption">
+              <h4>Mux Cards</h4>
+              <p>Branding, UI/UX</p>
+            </div> 
+          </div>    
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="item">
+            <div class="work-img">
+              <img class="img-fluid" src="images/portfolio-4.jpg"/>
+            </div>
+            <div class="caption">
+              <h4>Float Bubbles</h4>
+              <p>UI/UX, Product Design</p>
+            </div> 
+          </div>    
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>          
+  
+</section>
+
+<!-- End of Works Section -->
+
+
+<!-- Start of Pricing Section -->
+
+<section class="pricing text-center" id="PRICING">
+  <div class="title">
+    <h2>Cheap Prices</h2>
+    <p class="mb-5">We provide the best quality.</p>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-md-6">
+        <div class="item text-left px-5">
+          <div class="price">
+            <h6>Starter</h6>
+            <p><sup>$</sup>9</p>
+          </div>
+          <div class="details py-4">
+            <p>Unlimited Connections</p>
+            <p>24/7 Support</p>
+            <p>Full SSL Protection</p>
+            <p>Unlimited Channels</p>
+          </div>
+          <div class="price-btn">
+            <button href="#" class="btn btn-default item-btn">Sign Up</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+         <div class="item text-left px-5">
+          <div class="price">
+            <h6>Silver</h6>
+            <p><sup>$</sup>19</p>
+          </div>
+          <div class="details py-4">
+            <p>Unlimited Connections</p>
+            <p>24/7 Support</p>
+            <p>Full SSL Protection</p>
+            <p>Unlimited Channels</p>
+          </div>
+          <div class="price-btn">
+            <button href="#" class="btn btn-default item-btn">Sign Up</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+         <div class="item text-left px-5" id="item-gold">
+          <div class="price">
+            <h6>Gold</h6>
+            <p><sup>$</sup>29</p>
+          </div>
+          <div class="details py-4">
+            <p>Unlimited Connections</p>
+            <p>24/7 Support</p>
+            <p>Full SSL Protection</p>
+            <p>Unlimited Channels</p>
+          </div>
+          <div class="price-btn">
+            <button href="#" class="btn btn-default item-btn">Sign Up</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+         <div class="item text-left px-5">
+          <div class="price">
+            <h6>Platinum</h6>
+            <p><sup>$</sup>49</p>
+          </div>
+          <div class="details py-4">
+            <p>Unlimited Connections</p>
+            <p>24/7 Support</p>
+            <p>Full SSL Protection</p>
+            <p>Unlimited Channels</p>
+          </div>
+          <div class="price-btn">
+            <button href="#" class="btn item-btn">Sign Up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- End of Pricing Section -->
+
+<!-- Start of Counter Section -->
+
+<section class="counters">
+  <div class="container text-center">
+    <div class="row no-gutters">
+
+      <div class="col-md-3">
+        <div class="caption my-3 border-right wow fadeIn" data-wow-duration="0.5s"data-wow-delay="0.5s"> 
+          <i class="fas fa-user fa-3x mb-3"></i> 
+          <h2 class="Count">125</h2>
+          <h4>Satisfied Clients</h4>
+        </div>  
+      </div>
+      <div class="col-md-3">
+        <div class="caption my-3 border-right wow fadeIn" data-wow-duration="1s"data-wow-delay="1s"> 
+          <i class="fas fa-project-diagram fa-3x mb-3"></i> 
+          <h2 class="Count">45</h2>
+          <h4>Projects a Year</h4>
+        </div>  
+      </div>
+      <div class="col-md-3">
+        <div class="caption my-3 border-right wow fadeIn" data-wow-duration="1.5s"data-wow-delay="1.5s"> 
+          <i class="fas fa-life-ring fa-3x mb-3"></i> 
+          <h2 class="Count">970</h2>
+          <h4>Support Tickets</h4>
+        </div>  
+      </div>
+      <div class="col-md-3">
+        <div class="caption my-3 wow fadeIn" data-wow-duration="2s"data-wow-delay="2s">  
+          <i class="fas fa-sticky-note fa-3x mb-3"></i>
+          <h2 class="Count">190</h2>
+          <h4>Blog Posts</h4>
+        </div>  
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- End of Counter Section -->
+
+<!-- Start of Clients Section -->
+
+<section class="clients text-center">  
+  <p class="mb-5">HAPPY CUSTOMERS</p>
+  <div class="slider">
+    <div class="item">
+      <div class="item-img">
+        <img src="images/testimonial-1.jpg" class="img-fluid rounded-circle">  
+      </div>  
+      <div class="caption">
+        <h4 class="mt-4">Marissa Mayer</h4>
+        <span>CEO, Yahoo</span>
+        <p class="px-5 mt-3">Quo rem cumque facere modi beatae. Deleniti nisi, repellat quae aspernatur consequatur consequuntur, fugit asperiores delectus beatae. Quae veniam, quidem cupiditate quia? Ut iste deleniti.</p>
+      </div>  
+    </div>
+    <div class="item">
+      <div class="item-img">
+        <img src="images/testimonial-2.jpg" class="img-fluid rounded-circle">
+      </div>
+      <div class="caption">  
+        <h4 class="mt-4">Mark Zuckerberg</h4>
+        <span>Founder & CEO, Facebook</span>
+        <p class="px-5 mt-3">Consectetur adipisicing elit. Perspiciatis aperiam quaerat iure veritatis fugit debitis, repellat aut accusantium culpa ipsum ex ipsa blanditiis recusandae, sit similique, eius assumenda porro pariatur.</p>
+      </div>  
+    </div>  
+  </div>
+  <div class="mt-4">
+    <button class="btn btn-info prev">
+      <i class="fas fa-arrow-left"></i>
+    </button>
+    <button class="btn btn-info next">
+      <i class="fas fa-arrow-right"></i>
+    </button>
+  </div>
+</section> 
+
+<!-- End of Clients Section -->
+
+
+<!-- Start of Brands Section -->
+
+<section class="brands text-center">
+  <h6>SOME OF OUR CLIENTS</h6>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <img src="images/client-1.png" class="img-fluid">
+      </div>
+      <div class="col-md-4">
+        <img src="images/client-2.png" class="img-fluid">
+      </div>
+      <div class="col-md-4">
+        <img src="images/client-3.png" class="img-fluid">
+      </div>
+      <div class="col-md-4">
+        <img src="images/client-4.png" class="img-fluid">
+      </div>
+      <div class="col-md-4">
+        <img src="images/client-5.png" class="img-fluid">
+      </div>
+      <div class="col-md-4">
+        <img src="images/client-6.png" class="img-fluid">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- End of Brands Section -->
+
+<!-- Start of Contact Section -->
+
+<section class="contact border-top" id="CONTACT">
+  <div class="row">
+    <div class="col-md-6">
+      <div id="map"></div>
+    </div>
+    <div class="col-md-6 pl-5 details">
+      <h2>Get In Touch</h2>
+      <p class="mb-5">Let's work together.</p>
+      <form class="w-75">
+        <div class="form-group">
+          <label>Your Name</label>
+          <input type="text" class="form-control py-2" id="exampleFormControlInput1" name="username">
+        </div>
+        <div class="form-group">
+          <label>Your Mail</label>
+          <input type="email" class="form-control py-2" id="exampleFormControlInput1" name="usermail">
+        </div>
+        <div class="form-group">
+          <label>Phone Number</label>
+          <input type="text" class="form-control py-2" id="exampleFormControlInput1" name="subject">
+        </div>
+        <div class="form-group">
+          <label>Your Message</label>
+          <textarea class="form-control py-5" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+      </form>
+      <div class="text-left"> 
+        <button class="btn mb-4">Send Message</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- End of Contact Section -->
+
+
+<!-- Start of Footer Section -->
+
+<section class="footer">
+  <div class="container caption">
+    <div class="row">
+      <div class="col-md-3">
+        <img src="images/logo-dark.png" class="img-fluid">
+        <p>387 Madison Ave<br/> 
+        New York, NY 10118</p>
+        <p>hello@bezel.co<br/> 
+        +1 301-736-4321</p>
+      </div>
+      <div class="col-md-3">
+        <h6>THE COMPANY</h6>
+        <p>About Us</p>
+        <p>What We Do</p>
+        <p>Our Vision</p>
+        <p>Portfolio</p>
+        <p>Careers</p>
+      </div>
+      <div class="col-md-3">
+        <h6>RESENT POSTS</h6>
+        <p>You Can’t Handle Truth</p>
+        <p>How To Add Value To Your Life</p>
+        <p>A Letter to My 12-Year-Old Self</p>
+        <p>Weak Words Kill Experiences</p>
+        <p>An Almost Static Stack</p>
+      </div>
+      <div class="col-md-3">
+        <h6>POPULAR TAGS</h6>
+        <a href="#" class="btn btn-outline-info">BUSINESS</a>
+        <a href="#" class="btn btn-outline-info">DESIGN</a><br/>
+        <a href="#" class="btn btn-outline-info my-2">DEVELOPMENT</a>
+        <a href="#" class="btn btn-outline-info my-2">INSPIRATION</a><br/>
+        <a href="#" class="btn btn-outline-info">LIFE STYLE</a>
+        <a href="#" class="btn btn-outline-info">TIPS</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- End of Footer Section -->
+
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/slick.min.js"></script> 
+  <script src="js/wow.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script> 
+  <script src="mine.js"></script>
+    
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwIQh7LGryQdDDi-A603lR8NqiF3R_ycA&callback=myMap"></script>
+
+</body>
+</html> 
