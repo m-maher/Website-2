@@ -190,7 +190,7 @@ body{
 	border-left: none;
 	border-right: none;
 }
-.about .nav-tabs .nav-link:hover{
+.about .nav-tabs .nav-link:hover:not(.active){
 	border: none;
 }
 .about .content p{
@@ -272,8 +272,8 @@ body{
     border: 1px solid #00c3e1;
     border-radius: 300px;
 }
-.works .nav-tabs .nav-link:hover{
-    color: #000;
+.works .nav-tabs .nav-link:hover:not(.active){
+    color: #868e96;
     border: none;
 }
 .works .item{
@@ -286,8 +286,7 @@ body{
 	color: #000;
 	position: absolute;
 	top: 120%;	
-	left: 40px;
-	width: 80%;
+	width: 100%;
 	height: 100px; 
 	opacity: 0;
 	transition: all 0.5s;
@@ -457,16 +456,17 @@ body{
 /* Start of Footer */
 
 .footer{
+	overflow: hidden;
+}
+.footer .item{
 	height: auto;
 	background-color: rgba(0,0,0,0.2);
 	background-image: url('images/dotted-map.png'); 
-	background-size: cover;
-	background-repeat: repeat-y;
-	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
 	height: 400px;
-	padding: 100px 0px;
+	padding: 70px 50px 70px 50px;
 }
-
 .footer img{
 	height: 60px;
 	width: 130px;
@@ -479,4 +479,5 @@ body{
 	font-weight: bold;
 	line-height: 2;
 }
+
 /* End of Footer */
